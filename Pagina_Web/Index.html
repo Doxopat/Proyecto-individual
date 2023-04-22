@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es"><!--Poner el idioma n español para que así lo detecte-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseñador Freelance</title>
+    <link rel="preload" href="/css/normalize.css" as="style"><!--Preload le da prioridad acerca de que referencia tendrá maypr prioridad-->
+    <link rel="stylesheet" href="/css/normalize.css" as="style">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css" as="style"><!--Enlaza la pagina con otra-->
+</head>
+<body>
+    <header><!--Encabezado de la pagina-->
+        <h1 class="titulo">Patricio Aguilera Ferrusca <span class="titulo__pequeño">Alias Pat</span></h1><!--<h1>Se usa para una etiqueta con un contenido como un titulo--><!--<span> se usa para separar el contenidoo por etiquetas-->
+            <!--La clase se declara dentro de la etiqueta  del contenido que hacemos-->
+    </header>
+    <div class="nav__bg">
+        <nav class="navegacion__Principal">
+            <a href="http://127.0.0.1:5501/Index.html">Inicio</a><!--<a>Para referenciar a otra página links-->
+            <a href="http://127.0.0.1:5501/SobreMi.html#">Sobre mí</a><!--# funciona para hacer referencia a la misma pagina-->
+            <a href="#">Clientes</a>
+            <a href="http://127.0.0.1:5501/contactos.html">Contacto</a>
+        </nav>
+    </div>
+    <section class="banner">
+        <div class="contenido__banner">
+            <h2>Ingenieria en computacion</h2>
+            <!--Icono agregado de tablericons-->
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="52" height="52" viewBox="0 0 24 24" stroke-width="1.5" stroke="#a905b6" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <circle cx="12" cy="11" r="3" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <p> CDMX, México</p>
+            <a class="boton"href="http://127.0.0.1:5501/contactos.html">Contactar</a>  
+        </div>  
+    </section>
+    <main class="contenedor sombra" >
+    <h2>Mis Servicios</h2>
+    <div class="servicios">
+                <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="icono">
+                    <!--Icono agregado de tablericons-->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-device-laptop" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <line x1="3" y1="19" x2="21" y2="19" />
+                        <rect x="5" y="6" width="14" height="10" rx="1" />
+                      </svg>
+                    </div>
+                    <p>En este curso de diseño web aprenderás a utilizar herramientas como Adobe Photoshop, Illustrator y Sketch para crear diseños atractivos y funcionales para sitios web, así como a utilizar tecnologías de front-end como HTML, CSS y JavaScript para implementar tus diseños y crear una experiencia de usuario intuitiva.</p><!--Lorem funciona para autocompletar texto-->
+                
+            </section>
+            <section class="servicio">
+                <h3>Desarrollo Web</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-apps" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="6" height="6" rx="1" />
+                        <rect x="4" y="14" width="6" height="6" rx="1" />
+                        <rect x="14" y="14" width="6" height="6" rx="1" />
+                        <line x1="14" y1="7" x2="20" y2="7" />
+                        <line x1="17" y1="4" x2="17" y2="10" />
+                      </svg>
+                </div>
+                    <p>En este curso de desarrollo web aprenderás a utilizar lenguajes como HTML, CSS y JavaScript para crear páginas web interactivas y responsivas, así como a utilizar frameworks populares como Bootstrap y jQuery para mejorar la eficiencia de tu trabajo.</p>                
+            </section>
+            <section class="servicio">
+                <h3>Base de Datos</h3>
+                <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-database" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <ellipse cx="12" cy="6" rx="8" ry="3"></ellipse>
+                        <path d="M4 6v6a8 3 0 0 0 16 0v-6" />
+                        <path d="M4 12v6a8 3 0 0 0 16 0v-6" />
+                      </svg>
+                </div>
+                    <p>En este curso de base de datos aprenderás a diseñar, crear y administrar bases de datos relacionales utilizando herramientas populares como MySQL y Oracle, así como a utilizar lenguajes de consulta como SQL para realizar operaciones avanzadas de filtrado, búsqueda y actualización de datos.</p>
+            </section>
+            <!-- <style>
+                p{/*Cambia el estilo de todas las etiquetas de p*/
+                    color:black;
+                }
+            </style> -->
+    </div>
+    </main>
+    <section>
+        <!--Contacto-->
+        <h2>Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend>Contactame Llenando con tus datos</legend>
+                <div class="contenedor__campos">
+                    <div class="campo">
+                        <label>Nombre</label>
+                        <input type="text" placeholder="Nombre">
+                    </div>
+                    <div class="campo">
+                        <label>Telefono</label>
+                        <input type="tel" placeholder="Telefono">
+                    </div>
+                    <div class="campo">
+                        <label>Correo</label>
+                        <input type="email" placeholder="Correo">
+                    </div>
+                    <div class="campo">            
+                        <label>Mensaje</label>
+                        <textarea class="input__text" placeholder="mensaje"></textarea>
+                    </div>
+                    <div>
+                        <input class="boton" type="submit" value="Enviar">
+                    </div>
+                </div>
+            </fieldset>
+        </form>                
+    </section>
+</body>
+</html>
