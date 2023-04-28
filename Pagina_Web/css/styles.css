@@ -202,6 +202,23 @@ h1,h2,h3{
     justify-content: space-evenly;/*Da un espacio pero no tanto como space betwen*/
     align-items: center;
 }
+.servicios .icono2{
+    height: 15rem;
+    width:15rem;
+    background-color:var(--secundario);
+    border-radius:50%;
+    display:flex;
+    justify-content: space-evenly;/*Da un espacio pero no tanto como space betwen*/
+    align-items: center;
+}
+.servicios .icono3{
+    height: 15rem;
+    width:15rem;
+    background-color:var(--secundario);
+    display:flex;
+    justify-content: space-evenly;/*Da un espacio pero no tanto como space betwen*/
+    align-items: center;
+}
 /*Contacto*/
 .formulario{
     background-color: #2d6073;
